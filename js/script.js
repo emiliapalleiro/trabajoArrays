@@ -38,7 +38,7 @@ function showList(array) {
 
 document.addEventListener("DOMContentLoaded", (e) => {
   // Escribe tu solución aquí
-  let stringElemnts = strangeArray.filter(item => typeof item === "string" ).sort(); //filtra los elementos de tipo string y los ordena de forma alfabetica
+  const stringElemnts = strangeArray.filter(item => typeof item === "string" ).sort(); //filtra los elementos de tipo string y los ordena de forma alfabetica
   
   // Sugerencia de cómo mostrar el array => showList(strangeArray);
   
